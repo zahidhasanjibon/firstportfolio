@@ -1,0 +1,38 @@
+.flex{
+        display:flex;
+}
+.justify-between{
+        justify-content:space-between;
+}
+.justify-center{
+        justify-content:center;
+}
+.items-center{
+        align-items:center;
+}
+.flex-1{
+        flex:1;
+}
+.btn{
+        border:2px solid transparent;
+        border-radius:4px;
+        padding:0.8rem 2rem;
+        font-size:1rem;
+        font-weight:600;
+        cursor:pointer;
+        outline:none;
+        transition:all .3s ease;
+        text-transform:uppercase;
+}
+.btn-primary{
+        background-color:var(--primary);
+}
+.btn-secondary{
+        background-color:transparent;
+        border:2px solid var(--primary);
+        color:var(--pure);
+        padding:1.1rem 2rem;
+}
+
+
+                    
